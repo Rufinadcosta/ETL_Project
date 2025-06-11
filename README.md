@@ -1,20 +1,24 @@
-# 🔄 ETL Pipeline Project with Amazon S3
+#  ETL Pipeline Project with Amazon S3
 
-## 🚀 Project Overview
-This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline using Python. It reads data from source files, transforms it through cleaning and aggregation steps, and loads it into Amazon S3. The project simulates a scalable and modular data pipeline suitable for batch processing in production environments.
+## Project Overview
+This project simulates a batch ETL process that extracts, transforms, and loads data into Amazon S3. It’s designed for modularity and production-readiness, with Airflow used for orchestration and Docker for reproducibility.
 
-## 🛠️ Technologies Used
-- **Python**, **Pandas**
-- **Amazon S3** for cloud-based storage
-- **Boto3** for AWS integration
-- **Jupyter Notebook**
+##  Technologies Used
+- Python, Pandas
+- Amazon S3
+- SQLAlchemy
+- Apache Airflow for orchestration
+- Docker for environment consistency
 
-## 📌 Key Features
-- ✅ Extracts data from local files or APIs  
-- ✅ Cleans, transforms, and validates data using Pandas  
-- ✅ Loads transformed data to Amazon S3 buckets  
-- ✅ Modular code structure for reusability and maintainability  
-- ✅ Error handling and logging integrated for reliability
+##  Key Features
+- ✅ Extracts raw files from local or remote sources
+- ✅ Transforms data using pandas operations
+- ✅ Loads processed data to Amazon S3
+- ✅ Scheduled DAGs with Airflow
+- ✅ Dockerized pipeline for easy deployment
+
+##  Outcome
+Showcases cloud-based ETL pipeline skills, orchestration, and scalable data processing.
 
 
 
